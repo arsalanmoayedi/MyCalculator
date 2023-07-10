@@ -49,7 +49,7 @@ namespace MyCalculator1
                     double txt1 = Convert.ToDouble(txtbox1.Text);
                     double txt2 = Convert.ToDouble(txtbox2.Text);
                     double sum = calculator.Sum(txt1, txt2);
-                    MessageBox.Show("حاصل حمع شما هست:" + sum);
+                    MessageBox.Show("حاصل جمع شما هست:" + sum);
                 }
             }
             catch (FormatException)
